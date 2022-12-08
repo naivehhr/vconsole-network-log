@@ -1,0 +1,26 @@
+{
+  "name": "vconsole-network-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "swc -C module.type=umd -d dist src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naivehhr/vconsole-network-log.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naivehhr/vconsole-network-log/issues"
+  },
+  "homepage": "https://github.com/naivehhr/vconsole-network-log#readme",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.168",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
